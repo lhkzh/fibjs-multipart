@@ -1,18 +1,31 @@
 {
   "name": "fibjs-multipart",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./out/index.js",
-  "types": "./src/index.d.ts",
+  "version": "1.0.1",
+  "description": "multipart for fibjs",
+  "main": "./dist/index.js",
+  "types": "./@types/index.d.ts",
   "private": false,
-  "author": "",
-  "homepage": "https://github.com/lhkzh/fibjs-multipart",
-  "license": "ISC",
-  "dependencies": {
-    "mime-types": "^2.1.27"
+  "author": "zhh",
+  "homepage": "https://github.com/lhkzh/pf",
+  "license": "MIT",
+  "keywords": [
+    "fibjs",
+    "multipart"
+  ],
+  "engines": {
+    "fibjs": ">0.32.0"
   },
   "devDependencies": {
-    "@fibjs/types": "^0.29.0"
+    "@fibjs/types": "latest"
   },
-  "peerDependencies": {}
+  "dependencies": {
+    "mime-types":"latest"
+  },
+  "files": [
+    "@types",
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
 }
